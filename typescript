@@ -1,0 +1,126 @@
+Script started on 2023-07-17 14:23:50+05:30 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="103" LINES="18"]
+[?2004h]0;hope@HOPE: ~/solidity-cource/Fund_ME/fundme[01;32mhope@HOPE[00m:[01;34m~/solidity-cource/Fund_ME/fundme[00m$ touch .envforge compile[3Ptouch .env[Ktouch .envforge compile[8Pclearforge inspect Fund_Me storageLayout[2@stora[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pforge inspect fundm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFundM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kmake script
+[?2004lforge script script/DeployFundMe.s.sol --rpc-url http://127.0.0.1:8545 --broad-cast --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 -vvv
+[1m[31merror:[0m unexpected argument '[33m--broad-cast[0m' found
+
+  [32mtip:[0m a similar argument exists: '[32m--broadcast[0m'
+
+[1m[4mUsage:[0m [1mforge script[0m [1m--fork-url[0m <URL> [1m--broadcast[0m <PATH> [ARGS]...
+
+For more information, try '[1m--help[0m'.
+make: *** [Makefile:5: script] Error 2
+[?2004h]0;hope@HOPE: ~/solidity-cource/Fund_ME/fundme[01;32mhope@HOPE[00m:[01;34m~/solidity-cource/Fund_ME/fundme[00m$ make script
+[?2004lforge script script/DeployFundMe.s.sol --rpc-url http://127.0.0.1:8545 --broad-cast --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 -vvv
+[1m[31merror:[0m unexpected argument '[33m--broad-cast[0m' found
+
+  [32mtip:[0m a similar argument exists: '[32m--broadcast[0m'
+
+[1m[4mUsage:[0m [1mforge script[0m [1m--fork-url[0m <URL> [1m--broadcast[0m <PATH> [ARGS]...
+
+For more information, try '[1m--help[0m'.
+make: *** [Makefile:5: script] Error 2
+[?2004h]0;hope@HOPE: ~/solidity-cource/Fund_ME/fundme[01;32mhope@HOPE[00m:[01;34m~/solidity-cource/Fund_ME/fundme[00m$ make script
+[?2004lforge script script/DeployFundMe.s.sol --rpc-url http://127.0.0.1:8545 --broadcast --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 -vvv
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...
+3[2K[1m[[32m⠒[0m][0m Unable to resolve imports:
+      "../../script/DeployFundMe.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../script/HelperConfig.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../src/FundMe.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+with remappings:
+      chainlink-brownie-contracts/=/home/hope/solidity-cource/Fund_ME/fundme/lib/chainlink-brownie-contracts/
+      ds-test/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/lib/ds-test/src/
+      forge-std/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/src/3[2K[1m[[32m⠢[0m][0m Unable to resolve imports:
+      "../../script/DeployFundMe.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../script/HelperConfig.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../src/FundMe.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+with remappings:
+      chainlink-brownie-contracts/=/home/hope/solidity-cource/Fund_ME/fundme/lib/chainlink-brownie-contracts/
+      ds-test/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/lib/ds-test/src/
+      forge-std/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/src/3[2K[1m[[32m⠆[0m][0m Unable to resolve imports:
+      "../../script/DeployFundMe.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../script/HelperConfig.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../src/FundMe.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+with remappings:
+      chainlink-brownie-contracts/=/home/hope/solidity-cource/Fund_ME/fundme/lib/chainlink-brownie-contracts/
+      ds-test/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/lib/ds-test/src/
+      forge-std/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/src/3[2K[1m[[32m⠰[0m][0m Unable to resolve imports:
+      "../../script/DeployFundMe.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../script/HelperConfig.s.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+      "../../src/FundMe.sol" in "/home/hope/solidity-cource/Fund_ME/fundme/test/FundMetest.t.sol"
+with remappings:
+      chainlink-brownie-contracts/=/home/hope/solidity-cource/Fund_ME/fundme/lib/chainlink-brownie-contracts/
+      ds-test/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/lib/ds-test/src/
+      forge-std/=/home/hope/solidity-cource/Fund_ME/fundme/lib/forge-std/src/
+3[2K[1m[[32m⠔[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠒[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠑[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠘[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠃[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠊[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠒[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠢[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠆[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠰[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠔[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠒[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠑[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠘[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠃[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠊[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠒[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠢[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠆[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠰[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠔[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠒[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠑[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠘[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠃[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠊[0m][0m Compiling 25 files with 0.8.193[2K[1m[[32m⠒[0m][0m Compiling 25 files with 0.8.19
+3[2K[1m[[32m⠢[0m][0m Solc 0.8.19 finished in 2.65s3[2K[1m[[32m⠆[0m][0m Solc 0.8.19 finished in 2.65s3[2K[1m[[32m⠰[0m][0m Solc 0.8.19 finished in 2.65s3[2K[1m[[32m⠔[0m][0m Solc 0.8.19 finished in 2.65s
+Compiler run [32msuccessful![0m
+[32mScript ran successfully.[0m
+
+== Return ==
+0: contract FundMe 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+1: contract HelperConfig 0xC7f2Cf4845C6db0e1a1e91ED41Bcd0FcC1b0E141
+[33m
+EIP-3855 is not supported in one or more of the RPCs used.
+Unsupported Chain IDs: 31337.
+Contracts deployed with a Solidity version equal or higher than 0.8.20 might not work properly.
+For more information, please see https://eips.ethereum.org/EIPS/eip-3855[0m
+
+## Setting up (1) EVMs.
+
+==========================
+
+Chain 31337
+
+Estimated gas price: 4.757442284 gwei
+
+Estimated total gas used for script: 1329573
+
+Estimated amount required: 0.006325366809864732 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 1].
+[32m⠁[0m [00:00:00] [[36m####################################>[34m-----------------------------------[0m[0m] 1/2 txes (0.0s)[2K[32m⠉[0m [00:00:00] [[36m########################################################################[34m[0m[0m] 2/2 txes (0.0s)
+Transactions saved to: /home/hope/solidity-cource/Fund_ME/fundme/broadcast/DeployFundMe.s.sol/31337/run-latest.json
+
+Sensitive values saved to: /home/hope/solidity-cource/Fund_ME/fundme/cache/DeployFundMe.s.sol/31337/run-latest.json
+
+##
+Waiting for receipts.
+[32m⠁[0m [00:00:00] [[36m[34m--------------------------------------------------------------------[0m[0m] 0/2 receipts (0.0s)[2K[32m⠉[0m [00:00:00] [[36m##################################>[34m---------------------------------[0m[0m] 1/2 receipts (0.1s)[2K[32m⠙[0m [00:00:00] [[36m####################################################################[34m[0m[0m] 2/2 receipts (0.0s)
+##### anvil-hardhat
+✅ Hash: 0xdadd6f366851503a728feb3adbb6bf9f60fe92307615ee3e7d4c2d0b64e13c45
+Contract Address: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+Block: 3
+Paid: 0.001684829756729028 ETH (446537 gas * 3.773102244 gwei)
+
+
+##### anvil-hardhat
+✅ Hash: 0x558770ecb51a6a7bd3c25a20f5cdc19f8872e18e7d020a2811dd6ad988aa579b
+Contract Address: 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+Block: 4
+Paid: 0.002121000436986594 ETH (576462 gas * 3.679341287 gwei)
+
+[2K
+Transactions saved to: /home/hope/solidity-cource/Fund_ME/fundme/broadcast/DeployFundMe.s.sol/31337/run-latest.json
+
+Sensitive values saved to: /home/hope/solidity-cource/Fund_ME/fundme/cache/DeployFundMe.s.sol/31337/run-latest.json
+
+[2K
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+Total Paid: 0.003805830193715622 ETH (1022999 gas * avg 3.726221765 gwei)
+
+Transactions saved to: /home/hope/solidity-cource/Fund_ME/fundme/broadcast/DeployFundMe.s.sol/31337/run-latest.json
+
+Sensitive values saved to: /home/hope/solidity-cource/Fund_ME/fundme/cache/DeployFundMe.s.sol/31337/run-latest.json
+
+[?2004h]0;hope@HOPE: ~/solidity-cource/Fund_ME/fundme[01;32mhope@HOPE[00m:[01;34m~/solidity-cource/Fund_ME/fundme[00m$ [?2004l
+exit
+
+Script done on 2023-07-17 14:34:21+05:30 [COMMAND_EXIT_CODE="0"]
